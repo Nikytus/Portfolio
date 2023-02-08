@@ -1,4 +1,5 @@
-type="text/javascript"
- $(function(){
- $("#Menu").load("index.html"); 
- });
+$(document).ready(function(){ 
+    $.get("index.html", function(data) {
+      $("#menu").html(data);
+    });
+  }); 
