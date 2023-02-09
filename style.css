@@ -25,6 +25,7 @@
 	border-bottom: 2px solid #0e94d4;
 	color: #ffffff;
 	font-size: 17px;
+	text-align: left;
    }
    
    .sidebar ul li a:hover{
@@ -35,11 +36,11 @@
 	color: #ffffff;
 	text-transform: uppercase;
 	padding: 22px 0px;
-	margin-left: 5px;
+	text-align: center;
 }
 
 i {
-	margin-right: 10px;
+	margin-right: 7px;
   }
 .title h1{
 	text-align: center;
@@ -54,4 +55,20 @@ i {
 	border-radius: 50px;
 	margin-left: 5px;
 	padding: 10px 0px;
+  }
+
+input textarea{
+	margin-left: 10px;
+  }
+table{
+	margin-left: auto; 
+	margin-right: auto;
+	margin: 20% auto;
+	text-align: justify;
+  }
+  input{
+	text-align: justify;
+  }
+  div {
+	text-align: justify;
   }
