@@ -121,7 +121,25 @@ dt{
 }
 #educ h3{
 	font-size: 20px;
-    margin-bottom: 12px;
+    margin-bottom: 14px;
+	border-bottom: 2px solid #F26464;
+	display: inline-block;
+}
+#awards h3{
+	font-size: 20px;
+    margin-bottom: 14px;
+	border-bottom: 2px solid #F26464;
+	display: inline-block;
+}
+#job h3{
+	font-size: 20px;
+    margin-bottom: 14px;
+	border-bottom: 2px solid #F26464;
+	display: inline-block;
+}
+#skill h3{
+	font-size: 20px;
+    margin-bottom: 14px;
 	border-bottom: 2px solid #F26464;
 	display: inline-block;
 }
