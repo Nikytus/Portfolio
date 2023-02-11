@@ -6,7 +6,6 @@
 	list-style: none;
 	text-decoration: none;
    }
-   
    body{
 	background: #f5f5f5;
 	margin-left:18%;
@@ -18,40 +17,41 @@
 	width: 18%;
 	height: 100%;
 	background: #181b35;
+	word-wrap: break-word;
    }
    .sidebar ul li a{
-	display: block;
-	padding: 16px 25px;
+	display:block;
+	padding: 30px 10px;
 	border-bottom: 2px solid #0e94d4;
 	color: #ffffff;
-	font-size: 17px;
+	font-size: 22px;
 	text-align: left;
    }
-   
    .sidebar ul li a:hover{
 	background:rgb(126, 17, 2);
 	color: #fff;
    }
-   .profile h2{
+.profile h2{
 	color: #ffffff;
 	text-transform: uppercase;
-	padding: 22px 0px;
 	text-align: center;
+	margin-bottom: 10px;
+	padding: 22px 0px;
 }
 
 i {
-	margin-right: 7px;
+	margin-right: 8px;
   }
 .title h1{
 	text-align: center;
 	text-transform: uppercase;
+	font-size: 44px;
 }
 .sidebar ul li a:active {
 	background-color: #3e8e41;
   }
 .profile img {
 	width: 95%;
-	height: 200px;
 	border-radius: 50px;
 	margin-left: 5px;
 	padding: 10px 0px;
@@ -72,7 +72,7 @@ input{
 
 #bio{
 	text-align: center;
-	font-size: 16px;
+	font-size: 20px;
 	font-weight: bold;
 }
 #bio h1{
@@ -81,7 +81,7 @@ input{
 }
 #bio h3{
 	text-transform: uppercase;
-    font-size: 16px;
+    font-size: 24px;
     border-bottom: 3px solid #F26464;
     padding-bottom: 7px;
     margin-bottom: 30px;
@@ -92,5 +92,36 @@ input{
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 10%;
-	width: 45%;
+}
+#social map{
+	cursor: pointer;
+}
+#bio p{
+	margin-top: 18px;
+}
+.num{
+	font-size: 20px;
+	font-weight: bold;
+	padding-top: 5%;
+}
+.header{
+	font-size: 25px;
+	padding-top: 7%;
+}
+ol.num{
+	list-style-type: upper-roman;
+}
+dd {
+    margin-bottom: 20px;
+	font-size: 14px;
+}
+dt{
+	font-weight: bold;
+	font-size: 15px;
+}
+#educ h3{
+	font-size: 20px;
+    margin-bottom: 12px;
+	border-bottom: 2px solid #F26464;
+	display: inline-block;
 }
