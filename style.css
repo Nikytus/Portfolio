@@ -108,7 +108,7 @@ input{
 	font-size: 25px;
 	padding-top: 7%;
 }
-ol.num{
+ol{
 	list-style-type: upper-roman;
 }
 dd {
